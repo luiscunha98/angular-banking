@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <app-header></app-header>
+
+  <form (ngSubmit)="onSubmit()">
+    <div class="form-group">
+      <label for="email">Email</label>
+      <input type="email" id="email" name="email" [(ngModel)]="user.email" required email>
+    </div>
+    <div class="form-group">
+      <label for="password">Password</label>
+      <input type="password" id="password" name="password" [(ngModel)]="user.password" required minlength="6">
+    </div>
+    <button type="submit">Register</button>
+  </form>
+
+  <app-footer></app-footer>
+</html>
+
+
+

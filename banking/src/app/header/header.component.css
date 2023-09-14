@@ -1,0 +1,51 @@
+
+.dark-blue-header {
+    background-color: #222;
+    width: 100%;
+    padding: 28px;
+    color: #fff;
+}
+
+.container {
+    display: flex;
+    justify-content: space-between; 
+    align-items: center; 
+  }
+  
+
+.header-buttons {
+    display: flex; 
+    justify-content: flex-start; 
+    align-items: center;
+    margin-right:7%;
+}
+
+.header-logo{
+    margin-left:2%;
+}
+
+.header-buttons a {
+    margin-left: 10px;
+  }
+
+
+.custom-button {
+   font-size: 18px; 
+   padding: 10px 20px; 
+   background-color: transparent; 
+   color: inherit; 
+   border: 2px solid transparent; 
+   text-decoration: none; 
+}
+
+.custom-button:hover {
+  background-color: transparent; 
+  box-shadow: 0 0 10px rgba(46, 46, 46, 0.7); 
+}
+
+.custom-button:active {
+  box-shadow: 0 0 20px rgba(65, 65, 65, 0.7); 
+}
+  
+  
+  
